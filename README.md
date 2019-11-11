@@ -21,3 +21,5 @@ git push
 	git pull
 
 	//Atualiza o codigo na maquina original que o projeto foi feito
+	
+##Atualizado pela internet	
