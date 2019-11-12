@@ -6,18 +6,13 @@ Na aula de hoje veremos como adicionar colaboradores.
 git comit (nome do arquivo)
 
 //exibe repositorios remotos
+//muito util para quando alguma coisa feita esta funcionando
 
-git remote 
+git push -u origin master
 
-//enviar arquivos para o repositorio remoto
+//Os demais pushes não precisam dessa informação
 
-	//O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
-	
-	git push -u origin master
-
-	//Os demais pushes não precisam dessa informação
-
-	git push
+git push
 
 //Atualizar repositório local de acordo com o repositório remoto
 
@@ -25,4 +20,4 @@ git remote
 
 	git pull
 
-	//Buscar as alterações, mas não aplica-las no branch atual
+	//Atualiza o codigo na maquina original que o projeto foi feito
